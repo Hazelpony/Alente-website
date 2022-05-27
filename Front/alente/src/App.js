@@ -1,6 +1,6 @@
 
 import Cabecalho from "./Componentes/header/index";
-import {Route, Routes, BrowserRouter} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Carrossel from "./Componentes/main/index";
 import Rodape from "./Componentes/footer/index";
 import Perfil from "./Componentes/perfil/index";
@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <Cabecalho/>
-      <BrowserRouter>
+      <Router>
       	<Routes>
       		<Route path="/" exact element={<Carrossel/>}/>
       		<Route path="/cadastro" element={<Cadastro/>}/>
@@ -28,7 +28,7 @@ function App() {
       		<Route path="/doacoes" element={<Doacoes/>}/>
       		<Route path="/sobre-nos" element={<sobreNos/>}/>
       	</Routes>
-      </BrowserRouter>
+      </Router>
       <Rodape/>
     </div>
   );

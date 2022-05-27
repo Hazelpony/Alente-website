@@ -1,7 +1,9 @@
 const histInicio = () => {
   //JavaScript aqui se precisar
   return(
-    html aqui
+    <>
+      html aqui
+    </>
   )
 }
 
