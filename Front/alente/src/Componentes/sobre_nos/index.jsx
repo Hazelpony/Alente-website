@@ -1,4 +1,4 @@
-const sobreNos = () => {
+const SobreNos = () => {
   //JavaScript aqui se precisar
   return(
     <>
@@ -7,4 +7,4 @@ const sobreNos = () => {
   )
 }
 
-export default sobreNos;
+export default SobreNos;

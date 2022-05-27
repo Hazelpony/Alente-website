@@ -1,4 +1,4 @@
-const histInicio = () => {
+const HistInicio = () => {
   //JavaScript aqui se precisar
   return(
     <>
@@ -7,4 +7,4 @@ const histInicio = () => {
   )
 }
 
-export default histInicio;
+export default HistInicio;

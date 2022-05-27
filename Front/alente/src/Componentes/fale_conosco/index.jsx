@@ -1,4 +1,4 @@
-const faleConosco = () => {
+const FaleConosco = () => {
   //JavaScript aqui se precisar
   return(
     <>
@@ -7,4 +7,4 @@ const faleConosco = () => {
   )
 }
 
-export default faleConosco;
+export default FaleConosco;
