@@ -4,9 +4,7 @@ import { Link } from "react-router-dom"
 const Rodape = () => {
 	return(
 	    <>
-		
-		{console.log(<Link to="/">aa</Link>)}
-		<p><span >Sobre Nós</span></p>
+		    <Link to="/sobre-nos">Sobre nós</Link>)}
 	    </>
     )
 }

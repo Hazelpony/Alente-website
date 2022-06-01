@@ -15,8 +15,8 @@ import SobreNos from "./Componentes/sobre_nos/index"
 function App() {
   return (
     <div>
-      <Cabecalho/>
       <Router>
+        <Cabecalho/>
       	<Routes>
       		<Route path="/" exact element={<Carrossel/>}/>
       		<Route path="/cadastro" element={<Cadastro/>}/>
@@ -28,8 +28,8 @@ function App() {
       		<Route path="/doacoes" element={<Doacoes/>}/>
       		<Route path="/sobre-nos" element={<SobreNos/>}/>
       	</Routes>
+      	<Rodape/>
       </Router>
-      <Rodape/>
     </div>
   );
 }
