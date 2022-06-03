@@ -1,0 +1,11 @@
+/*
+CSS GERAL DESTINADO A AJUSTES NA RESPONSIVIDADE 
+
+PALETA DE CORES:
+1- #C48485 (botão)
+2- #B58281 (footer)
+3- #F4EED8 (background amarelo esbranquiçado)
+*/
+.altura{
+  min-height: 50vh;
+}

@@ -1,0 +1,36 @@
+.rodape{
+  margin-top: 25px;
+  padding-top: 15px;
+  display: flex;
+  background-color: #B58281;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.rodape div{
+  display: flex;
+  flex-direction: column;
+}
+.rodape div p{
+  color: white;
+}
+#socialmedias{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+#doacaolink{
+  background-color: white;
+  color: #B58281;
+  border-radius: 8px;
+  padding: 6px;
+}
+#doacaolink:hover{
+  color: blue;
+}
+.link{
+  color: white;
+  text-decoration: none;
+}
