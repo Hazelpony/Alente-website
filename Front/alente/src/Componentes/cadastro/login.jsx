@@ -1,4 +1,4 @@
-import "./login.css"
+import "./index.css"
 
 const Login = () => {
   //JavaScript aqui se precisar

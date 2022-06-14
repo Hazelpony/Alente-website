@@ -8,7 +8,7 @@ import MenuOpcoes from "./Componentes/menu_opcoes/index";
 import ComoFunciona from "./Componentes/como_funciona/index";
 import MenuSaude from "./Componentes/menu_saude/index";
 import Doacoes from "./Componentes/doacoes/index"
-import Login from "./Componentes/cadastro/index"
+import Login from "./Componentes/cadastro/login"
 import FaleConosco from "./Componentes/fale_conosco/index"
 import SobreNos from "./Componentes/sobre_nos/index"
 
@@ -19,7 +19,7 @@ function App() {
 	<Cabecalho/>
       	<Routes>
       		<Route path="/" exact element={<Carrossel/>}/>
-      		<Route path="/cadastro" element={<Login/>}/>
+      		<Route path="/login" element={<Login/>}/>
       		<Route path="/perfil" element={<Perfil/>}/>
       		<Route path="/menuopcoes" element={<MenuOpcoes/>}/>
       		<Route path="/comofunciona" element={<ComoFunciona/>}/>
