@@ -1,7 +1,9 @@
 const MenuSaude = () => {
   //JavaScript aqui se precisar
   return(
-    html aqui
+    <>
+      html aqui
+    </>
   )
 }
 

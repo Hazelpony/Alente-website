@@ -1,8 +1,10 @@
-const histInicio = () => {
+const HistInicio = () => {
   //JavaScript aqui se precisar
   return(
-    html aqui
+    <>
+      html aqui
+    </>
   )
 }
 
-export default histInicio;
+export default HistInicio;

@@ -1,8 +1,10 @@
-const comoFunciona = () => {
+const ComoFunciona = () => {
   //JavaScript aqui se precisar
   return(
+    <>
     html aqui
+    </>
   )
 }
 
-export default comoFunciona;
+export default ComoFunciona;

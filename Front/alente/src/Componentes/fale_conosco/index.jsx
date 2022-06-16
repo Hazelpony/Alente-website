@@ -1,8 +1,10 @@
-const faleConosco = () => {
+const FaleConosco = () => {
   //JavaScript aqui se precisar
   return(
-    html aqui
+    <>
+      html aqui
+    </>
   )
 }
 
-export default faleConosco;
+export default FaleConosco;

@@ -1,8 +1,10 @@
-const sobreNos = () => {
+const SobreNos = () => {
   //JavaScript aqui se precisar
   return(
-    html aqui
+    <>
+      html aqui
+    </>
   )
 }
 
-export default sobreNos;
+export default SobreNos;
