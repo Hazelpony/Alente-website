@@ -11,7 +11,8 @@ import MenuSaude from "./Componentes/menu_saude/index";
 import Doacoes from "./Componentes/doacoes/index"
 import Login from "./Componentes/cadastro/login"
 import FaleConosco from "./Componentes/fale_conosco/index"
-import SobreNos from "./Componentes/sobre_nos/index"
+import SobreNos from "./Componentes/sobre_nos/index";
+import HistInicio from "./Componentes/sobre_nos/historia_de_inicio/index.jsx";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       		<Route path="/faleconosco" element={<FaleConosco/>}/>
       		<Route path="/doacoes" element={<Doacoes/>}/>
       		<Route path="/sobrenos" element={<SobreNos/>}/>
+		<Route path="/historiadeinicio" element={<HistInicio/>}/>
       	</Routes>
 	<Rodape/>
       </Router>
