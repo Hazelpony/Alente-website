@@ -1,4 +1,5 @@
 import "./CSS/geralstyle.css"
+import Cadastro from "./Componentes/cadastro/cadastro";
 import Cabecalho from "./Componentes/header/index";
 import { Link, BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Carrossel from "./Componentes/main/index";
@@ -19,6 +20,7 @@ function App() {
 	<Cabecalho/>
       	<Routes>
       		<Route path="/" exact element={<Carrossel/>}/>
+		<Route path="cadastro" element={<Cadastro/>}/>
       		<Route path="/login" element={<Login/>}/>
       		<Route path="/perfil" element={<Perfil/>}/>
       		<Route path="/menuopcoes" element={<MenuOpcoes/>}/>

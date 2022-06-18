@@ -1,0 +1,66 @@
+img{
+  width: 15%;
+}
+
+.secaosobrecima{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  flex-wrap: wrap;
+  background-color: lightyellow;
+  color: brown;
+}
+
+.secaosobrecima article{
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+.visao{
+  border: 1px solid brown;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.tituloart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secaosobrebaixo{
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: brown;
+}
+
+.ondetudocomecou{
+  border: 1px solid brown;
+  padding: 20px 20px 50px 20px;
+  border-radius: 8px;
+}
+
+.linkhistoria{
+  color: brown;
+  text-decoration: none;
+  font-size: 135%;
+}
+
+.linkhistoria img{
+  width: 10%;
+}
+
+@media (min-width: 600px){
+  .secaosobrecima article{
+    max-width: 30vw;
+  }
+  .secaosobrebaixo article{
+    max-width: 45vw;
+  }
+}
+
+
