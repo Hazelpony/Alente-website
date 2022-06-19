@@ -1,0 +1,48 @@
+.secaohistoria{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: lightyellow;
+  color: brown;
+}
+
+.secaohistoria article{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 8px;
+}
+
+.secaohistoria article img{
+  width: 28vw;
+  height: 28vh;
+}
+
+.historia{
+  flex-direction: column;
+}
+
+.secaoimagem{
+  display: flex;
+  justify-content: center;
+}
+
+.secaoimagem img{
+  width: 80vw;
+}
+
+@media (min-width: 600px){
+  .imagem1 img{
+    max-width: 23vw;
+    max-height: 23vh;
+  }
+  .historia{
+    max-width: 42vw;
+  }
+  .imagem2 img{
+    max-width: 23vw;
+    max-height: 23vh;
+  }
+}
