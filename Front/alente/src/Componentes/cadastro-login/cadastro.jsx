@@ -42,8 +42,11 @@ const Cadastro = () => {
       <section>
 	<article>
 	    <h1>Junte-se a família Alente</h1>
-	    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
-	    <p>Sed viverra elementum nisi eu finibus. Fusce aliquam dapibus mauris, nec ultrices est eleifend quis.</p>
+	    <p>Pensando em cada detalhe, a nossa comunidade oferece atendimentos com profissionais de diversas áreas da saúde, oficinas de bem-estar e eventos educacionais.</p>
+	    <p>SUPER SIMPLES!</p>
+	    <p>Basta preencher o campo "cadastro" com seu contato e agendar o dia para o encontro virtual com o ACOLHEDOR-ALENTE.</p>
+	    <p>Acolhedor alente?</p>
+	    <p>SIM!!</p>
 	    <p>Um membro da família alente faz questão de dar boas vindas e atendê-lo</p>
 	</article>
       </section>
