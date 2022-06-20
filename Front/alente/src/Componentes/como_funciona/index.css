@@ -9,6 +9,8 @@
 
 .sobre article{
   display: flex;
+  justify-content: flex-end;
+  max-width: 50vw;
   padding: 8px;
   color: white;
 }
