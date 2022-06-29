@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  background-image: url(https://bioemfoco.com.br/wp-content/uploads/amamentacao.jpg);
+  background-image: linear-gradient(to left, rgba(0,0,0,0.6) 10%, transparent, transparent), url(https://bioemfoco.com.br/wp-content/uploads/amamentacao.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -13,6 +13,7 @@
   max-width: 50vw;
   padding: 8px;
   color: white;
+  background-image: linear-gradient(to left, black, #A2000000);
 }
 
 .sobre article h1{

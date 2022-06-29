@@ -10,7 +10,7 @@ const HistInicio = () => {
 	    <article className="historia">
 		<h1>Nossa história</h1>
 		<p>O Instituto Alente inicialmente nasceu de uma necessidade do banco de leite em diversas regiões de pernambuco, principalmente no Recife, onde foi detectado uma grande escacez de leite materno para bebês prematuros, mães impossibilitadas de amamentar, puérperias e afins. Com isso,</p>
-		<p>Veja mais sobre nosso começo: <a href="http://globoplay.globo.com/v/8476809">http://globoplay.globo.com/v/8476809</a></p>
+		<p>Veja mais sobre nosso começo: <a href="http://globoplay.globo.com/v/8476809" target="_blank" rel="noreferrer noopener">http://globoplay.globo.com/v/8476809</a></p>
 	    </article>
 	    <article className="imagem2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-PlKySaXlPg0lCqL9h3kjxxuLXH2a73qqHA&usqp=CAU" alt="bebê mamando"/></article>
 	  </section>
