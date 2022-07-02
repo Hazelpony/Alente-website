@@ -31,6 +31,7 @@
 
 .secaoimagem img{
   width: 40vw;
+  height: 25vh;
 }
 
 @media (min-width: 600px){
