@@ -8,7 +8,7 @@ const SobreNos = () => {
       <main>
 	<section className="secaosobrecima">
 	  <article>
-	    <h1 className="tituloart"><img src="https://cdn-icons.flaticon.com/png/512/1323/premium/1323780.png?token=exp=1655500186~hmac=c03eb8e6012c60f17e6b7844da13185c" alt="foguete"/>Missão</h1>
+	    <h1 className="tituloart"><img src="https://cdn-icons-png.flaticon.com/512/1356/1356604.png" alt="foguete"/>Missão</h1>
 	    <p>Promover a lactância e doação de leite, como preconiza a Organização Mundial da Saúde (OMS), através da prestação de assistência multiprofissional à mulheres gestantes, lactantes e seus acompanhantes, e a familiares de recém nascidos órfãos de mãe no Brasil.</p>
 	  </article>
 	  <article className="visao">
@@ -28,7 +28,7 @@ const SobreNos = () => {
 	  <article className="ondetudocomecou">
 	    <h1>Onde tudo começou</h1>
 	    <p>O Instituto Alente inicialmente nasceu de uma necessidade do banco de leite em diversas regiões de pernambuco, principalmente no Recife, onde foi detectado uma grande escacez de leite materno para bebés prematuros, mães impossibilitadas de amamentar, puerperias e afins. Com isso,</p>
-	    <Link className="linkhistoria" to="/nossahistoria">Saiba mais <img src="https://cdn-icons.flaticon.com/png/512/3047/premium/3047106.png?token=exp=1655569198~hmac=87b8abb8873b5f9013c9a7a9caa146b5" alt="seta"/></Link>
+	    <Link className="linkhistoria" to="/nossahistoria">Saiba mais <img src="https://cdn-icons.flaticon.com/png/512/3634/premium/3634202.png?token=exp=1656722224~hmac=7c5bdb3a940c4e9f10eb4217b006bcbd" alt="seta"/></Link>
 	  </article>
 	</section>
       </main>
