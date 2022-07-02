@@ -33,7 +33,7 @@ return(
               <label className="termoseconds"><a href="#">Aceito termos e condições</a></label>
             </div>
             <div>
-              <Link to="#" className="btnenviar" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={() => { return(<Modal/>) }}>Enviar</Link>
+              <Link to="#" className="btnenviar" type="submit" onClick={() => { return(<Modal hidden={false}/>) }}>Enviar</Link>
             </div>
           </div>
         </form>
