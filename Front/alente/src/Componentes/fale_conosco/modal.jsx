@@ -1,8 +1,8 @@
 
-const Modal = (props) => {
+const Modal = () => {
   return(
 	<>
-	    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden=props.hidden>
+	    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
   	      <div class="modal-dialog">
     	        <div class="modal-content">
       		  <div class="modal-header">
