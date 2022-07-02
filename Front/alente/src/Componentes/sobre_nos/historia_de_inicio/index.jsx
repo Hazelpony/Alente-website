@@ -4,7 +4,9 @@ import alente1 from "../../../Imagens/IMG-20220702-WA0020.jpg";
 import alente2 from "../../../Imagens/IMG-20220702-WA0021.jpg";
 
 const HistInicio = () => {
-  //JavaScript aqui se precisar
+  
+  let imgs = [alente1, alente2, alente1, alente2]
+
   return(
     <>
 	<main>
@@ -18,7 +20,7 @@ const HistInicio = () => {
 	    <article className="imagem2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqbAtzSK8QupsEEbmjFr4NT43Ml7uzdiT-wA&usqp=CAU" alt="bebê mamando"/></article>
 	  </section>
 	  <section className="secaoimagem">
-	    <article><img src={alente1} alt="instituto alente"/><img src={alente2} alt="instituto alente"/></article>
+	    <article>{imgs.map((img) => {return(<img src={img} alt="instituto alente"/>)}}</article>
 	  </section>
 	</main>
     </>
