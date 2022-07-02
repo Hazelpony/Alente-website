@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 import "./index.css";
+import Modal from "./modal";
 
 const FaleConosco = () => {
 //JavaScript aqui se precisar
@@ -32,7 +33,7 @@ return(
               <label className="termoseconds"><a href="#">Aceito termos e condições</a></label>
             </div>
             <div>
-              <Link to="#" className="btnenviar" type="submit">Enviar</Link>
+              <Link to="#" className="btnenviar" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={() => return(<Modal/>)}>Enviar</Link>
             </div>
           </div>
         </form>
