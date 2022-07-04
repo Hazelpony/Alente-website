@@ -5,7 +5,7 @@ import alente2 from "../../../Imagens/IMG-20220702-WA0021.jpg";
 
 const HistInicio = () => {
   
-  let imgs = [alente1, alente2, alente1, alente2]
+  const imgs = [alente1, alente2, alente1, alente2]
 
   return(
     <>
