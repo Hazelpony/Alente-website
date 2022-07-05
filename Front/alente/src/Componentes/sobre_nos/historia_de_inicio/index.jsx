@@ -20,7 +20,9 @@ const HistInicio = () => {
 	    <article className="imagem2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqbAtzSK8QupsEEbmjFr4NT43Ml7uzdiT-wA&usqp=CAU" alt="bebê mamando"/></article>
 	  </section>
 	  <section className="secaoimagem">
-	    <article>{imgs.map((img) => {return(<img src={img} alt="instituto alente"/>)}}</article>
+	    <article>
+		{imgs.map((img) => {return(<img src={img} alt="instituto alente"/>)})}
+	    </article>
 	  </section>
 	</main>
     </>
