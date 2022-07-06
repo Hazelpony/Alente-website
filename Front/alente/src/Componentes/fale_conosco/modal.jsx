@@ -1,26 +1,25 @@
+import {Link} from "react-router-dom";
+import FaleConosco from "./index";
+import {Modal, Button} from "react-bootstrap";
 
-const Modal = () => {
+const ModalContato = (props) => {
   return(
 	<>
-	    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
-  	      <div class="modal-dialog">
-    	        <div class="modal-content">
-      		  <div class="modal-header">
-        	    <h5 class="modal-title" id="exampleModalLabel">Obrigado por nos contatar!</h5>
-        	    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      		  </div>
-		  <div class="modal-body">
-			
-		  </div>
-		  <div class="modal-footer">
-		    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-		    <button type="button" class="btn btn-primary">Save changes</button>
-		  </div>
-		</div>
-	      </div>
-	    </div>
+	    <Modal show={props.show} onHide={props.handleClose}>
+  	      <Modal.Header closeButton>
+		<Modal.Title>Obrigado por nos contatar!</Modal.Title>
+	      </Modal.Header>
+	      <Modal.Body>
+		<p>Em breve retornaremos seu contato!</p>
+	      </Modal.Body>
+	      <Modal.Footer>
+		<Button variant="secondary" onClick={props.handleClose}>
+		  Fechar
+		</Button>
+	      </Modal.Footer>
+	    </Modal>
 	</>
   )
 }
 
-export default Modal;
+export default ModalContato;
