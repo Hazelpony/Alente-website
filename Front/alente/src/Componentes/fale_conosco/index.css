@@ -33,11 +33,23 @@
 .btnenviar{
   text-decoration: none;
   color: white;
-  background-color: brown;
+  background-color: #AD6E6F;
   text-align: center;
   padding: 10px;
   border-radius: 7px;
   margin: 12px auto 2vh 8vw;
+}
+
+.txtcenter{
+  text-align: center;
+  color: #AD6E6F;
+}
+
+.fundomodalbody{
+  background-color: #FFF9E2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 @media (max-width: 600px){
