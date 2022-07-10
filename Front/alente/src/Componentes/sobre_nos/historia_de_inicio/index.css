@@ -27,10 +27,13 @@
 .secaoimagem{
   display: flex;
   justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .secaoimagem img{
-  width: 80vw;
+  width: 20vw;
+  height: 10vh;
 }
 
 @media (min-width: 600px){

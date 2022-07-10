@@ -25,8 +25,7 @@
 
 .imagem{
   width: 55vw;
-  margin-bottom: -25px;
-  background-image: url(https://st3.depositphotos.com/3591429/13952/i/1600/depositphotos_139522368-stock-photo-cheerful-mother-holding-baby-boy.jpg);
+  background-image: url(../../Imagens/IMG-20220702-WA0010.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -34,11 +33,23 @@
 .btnenviar{
   text-decoration: none;
   color: white;
-  background-color: brown;
+  background-color: #AD6E6F;
   text-align: center;
   padding: 10px;
   border-radius: 7px;
   margin: 12px auto 2vh 8vw;
+}
+
+.txtcenter{
+  text-align: center;
+  color: #AD6E6F;
+}
+
+.fundomodalbody{
+  background-color: #FFF9E2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 @media (max-width: 600px){
